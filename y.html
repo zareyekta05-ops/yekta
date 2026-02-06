@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آکادمی هوش مصنوعی حرفه‌ای<img class="robot" src="https://cdn.pixabay.com/photo/2017/02/01/22/02/artificial-intelligence-2030216_1280.png" alt="robot">
+</title>
+	
+
+<style>
+body {
+    margin: 0;
+    font-family: "B Nazanin", Tahoma, sans-serif;
+    background: #f5f7fa;
+    color: #1f2933;
+    line-height: 1.7;
+}
+
+header {
+    padding: 25px 0;
+    text-align: center;
+    background: linear-gradient(90deg, #eef2ff, #fef3c7);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    color: #2563eb;
+    animation: fadeInDown 1.5s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+nav a:hover {
+    background: #2563eb;
+    color: white;
+    transform: scale(1.1);
+}
+
+#toc {
+    max-width: 950px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+#toc h2 {
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+#toc ul li {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+section {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    animation: fadeIn 1.5s ease;
+}
+
+section h2 {
+    color: #2563eb;
+    margin-bottom: 18px;
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1.15rem;
+    margin-bottom: 15px;
+    color: #334155;
+}
+
+ul {
+    list-style-type: disc;
+    padding-right: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(90deg, #eef2ff, #fef3c7);
+    color: #475569;
+    border-top: 1px solid #d1d5db;
+    margin-top: 40px;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 12px;
+    background: #fefefe;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* ربات متحرک */
+.robot {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 120px;
+    animation: float 3s ease-in-out infinite;
+    z-index: 999;
+    opacity: 0.95;
+}
+
+/* انیمیشن‌ها */
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>وبسایت هوش مصنوعی</h1>
+</header>
+
+<nav>
+    <a href="#definition">تعریف</a>
+    <a href="#history">تاریخچه</a>
+    <a href="#applications">کاربردها</a>
+    <a href="#tools">ابزارها</a>
+    <a href="#benefits">مزایا</a>
+    <a href="#future">آینده</a>
+    <a href="#companies">شرکت‌ها</a>
+    <a href="#faq">سوالات</a>
+    <a href="#conclusion">نتیجه‌گیری</a>
+</nav>
+
+<div id="toc">
+    <h2>فهرست مطالب</h2>
+    <ul>
+        <li><a href="#definition">هوش مصنوعی چیست؟</a></li>
+        <li><a href="#history">تاریخچه</a></li>
+        <li><a href="#applications">کاربردها</a></li>
+        <li><a href="#tools">ابزارها</a></li>
+        <li><a href="#benefits">مزایای AI</a></li>
+        <li><a href="#future">آینده AI</a></li>
+        <li><a href="#companies">شرکت‌ها</a></li>
+        <li><a href="#faq">سوالات متداول</a></li>
+        <li><a href="#conclusion">نتیجه‌گیری</a></li>
+    </ul>
+</div>
+
+<section id="definition">
+    <h2>هوش مصنوعی چیست؟</h2>
+    <div class="card">
+        <p>هوش مصنوعی علمی است که به ماشین‌ها توانایی انجام کارهایی شبیه انسان می‌دهد، شامل یادگیری، تحلیل داده، و تصمیم‌گیری.</p>
+    </div>
+</section>
+
+<section id="history">
+    <h2>تاریخچه و بنیان‌گذار</h2>
+    <div class="card">
+        <p>جان مک‌کارتی در سال 1956 اصطلاح AI را معرفی کرد و زبان LISP را ساخت. او پدر هوش مصنوعی شناخته می‌شود.</p>
+    </div>
+</section>
+
+<section id="applications">
+    <h2>کاربردهای هوش مصنوعی</h2>
+    <div class="card">
+      <p><strong>پزشکی: تشخیص بیماری و پردازش تصاویر پزشکی.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>خودروهای هوشمند: رانندگی خودکار و سیستم‌های ایمنی.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>آموزش: یادگیری شخصی‌سازی شده و سیستم‌های هوشمند آموزشی.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>رباتیک: ربات‌های صنعتی و خدماتی.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>مالی: تحلیل داده و پیش‌بینی بازار.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>بازاریابی: تحلیل رفتار مشتری و تبلیغات هوشمند.</strong></p>
+    </div>
+</section>
+
+<section id="tools">
+    <h2>ابزارهای معروف AI</h2>
+
+    <div class="card">
+        <p><strong>ChatGPT:</strong> یک مدل پردازش زبان طبیعی که توانایی تولید متن، پاسخ به سوالات و نوشتن محتوا دارد.
+        </p>
+    </div>
+
+    <div class="card">
+        <p><strong>Google Gemini:</strong> ابزار تولید محتوا و تحلیل داده از گوگل برای توسعه برنامه‌های هوش مصنوعی.
+        </p>
+    </div>
+
+    <div class="card">
+        <p><strong>TensorFlow:</strong> کتابخانه محبوب متن‌باز برای توسعه مدل‌های یادگیری ماشین و یادگیری عمیق.
+        </p>
+    </div>
+
+    <div class="card">
+        <p><strong>PyTorch:</strong> کتابخانه متن‌باز یادگیری عمیق که توسط Facebook توسعه داده شده است.
+     </a></p>
+    </div>
+
+    <div class="card">
+        <p><strong>IBM Watson:</strong> پلتفرم AI شرکت IBM برای تحلیل داده‌ها، پردازش زبان طبیعی و توسعه برنامه‌های هوشمند.
+        </p>
+    </div>
+
+    <div class="card">
+        <p><strong>Hugging Face:</strong> ارائه‌دهنده مدل‌های AI متن‌باز، مخصوصاً NLP و مدل‌های یادگیری عمیق.
+        </p>
+    </div>
+
+</section>
+
+
+<section id="benefits">
+    <h2>مزایای هوش مصنوعی</h2>
+    <div class="card">
+      <p><strong>افزایش سرعت و دقت تصمیم‌گیری.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>اتوماسیون کارهای تکراری.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>پردازش حجم بسیار زیاد داده‌ها.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>پیش‌بینی و تحلیل رفتار.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>بهبود خدمات و کیفیت زندگی.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>ایجاد فرصت‌های نوآورانه و شغلی.</strong></p>
+    </div>
+</section>
+
+<section id="future">
+    <h2>آینده هوش مصنوعی</h2>
+    <div class="card">
+      <p><strong>اتوماسیون بیشتر صنایع.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>ربات‌های هوشمند خانگی و خدماتی.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>پزشکی دقیق‌تر و شخصی‌سازی شده.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>هوش مصنوعی خلاق و تولید محتوا.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>توسعه اینترنت اشیا و ارتباط با AI.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>همکاری انسان و ماشین در تصمیم‌گیری.</strong></p>
+    </div>
+</section>
+
+<section id="companies">
+    <h2>شرکت‌های ارائه‌دهنده AI</h2>
+    <div class="card"><p>OpenAI</p></div>
+    <div class="card"><p>Google AI</p></div>
+    <div class="card"><p>Microsoft AI</p></div>
+    <div class="card"><p>IBM AI</p></div>
+    <div class="card"><p>Amazon AWS AI</p></div>
+    <div class="card"><p>NVIDIA AI</p></div>
+</section>
+
+<section id="faq">
+  <h2>سوالات متداول</h2>
+<div class="card">
+    <p><strong>1. هوش مصنوعی چیست؟ پاسخ: توانایی ماشین‌ها برای انجام کارهای هوشمندانه.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>2. کاربردهای اصلی AI چیست؟ پاسخ: پزشکی، آموزش، رباتیک، مالی، بازاریابی و خودروهای خودران.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>3. آیا AI جای انسان را می‌گیرد؟ پاسخ: خیر، ابزار کمکی و مکمل است.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>4. چگونه شروع به یادگیری AI کنیم؟ پاسخ: با پایتون و ریاضی پایه.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>5. بهترین منابع یادگیری AI چیست؟ پاسخ: Coursera، Google AI، Microsoft AI.</strong></p>
+    </div>
+    <div class="card">
+      <p><strong>6. مزیت استفاده از AI چیست؟ پاسخ: سرعت، دقت، نوآوری و تحلیل داده‌ها.</strong></p>
+    </div>
+</section>
+
+<section id="conclusion">
+    <h2>نتیجه‌گیری</h2>
+    <p><strong>هوش مصنوعی تحول بزرگی در زندگی و کسب‌وکار ایجاد کرده است. یادگیری و استفاده صحیح از آن، فرصت‌های شغلی و علمی بسیاری فراهم می‌کند.</strong></p>
+<img src="—Pngtree—ai technology tape sticker no_20456479.png" 
+         alt="آموزش هوش مصنوعی" width="50" height="700" 
+         style="width:80%; display:block; margin:20px auto; border-radius:12px;">
+</section>
+
+<footer>
+© 2026 | یکتا زارع دهم شبکه و نرم‌افزار هنرستان غیر دولتی سما | سایت آموزش هوش مصنوعی
+</footer>
+
+
+</body>
+</html>
